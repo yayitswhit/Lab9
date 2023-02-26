@@ -21,8 +21,9 @@ int main() {
     {
         cout << "Input a number: ";
         cin >> userNumber;
+				if(userNumber >= 0) {
         outFile << userNumber << endl;
-        
+        }
     }
     while(userNumber >= 0);
     
